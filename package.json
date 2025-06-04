@@ -1,0 +1,19 @@
+{
+  "name": "smartcall-website",
+  "version": "1.0.0",
+  "description": "SmartCall - Schedule Phone Calls with Your Voice",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "voice reminders",
+    "call scheduler",
+    "family app",
+    "medication reminders"
+  ],
+  "author": "SmartCall Team",
+  "license": "MIT"
+}
