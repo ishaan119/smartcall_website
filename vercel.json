@@ -1,6 +1,15 @@
 {
   "version": 2,
-  "public": true,
+  "builds": [
+    {
+      "src": "*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "assets/**",
+      "use": "@vercel/static"
+    }
+  ],
   "rewrites": [
     { "source": "/privacy", "destination": "/privacy_policy.html" }
   ],
